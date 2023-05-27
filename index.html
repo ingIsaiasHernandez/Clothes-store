@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-order">
+                <a href="#" class="nav__logo-store">
+                  <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+                    <title>Academlo Logo</title>
+                    <g>
+                      <g>
+                        <path
+                          d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+
+                  STORE
+            
+                </a>
+
+                <div class="menu--desktop-container">
+                  <a href="#" class="menu--desktop-items a-btn-navbar">Home</a>
+                  <a href="#products" class="menu--desktop-items a-btn-navbar">Products</a>
+                </div>
+            </div>
+
+          
+      
+              <div>
+                <ul class="nav-menu hide" id="menu">
+                    <div class="menu-close" id="close-menu">
+                        <i class='bx bx-x bx-theme'></i>
+                    </div>        
+                    <a href="#" class="nav-item a-btn-navbar">Home</a>
+                    <a href="#products" class="nav-item a-btn-navbar">Products</a>
+                </ul>
+              </div>
+
+            <div class="icons-wrapper">
+                <i class='bx bx-moon bx-theme' id="theme-btn"></i>
+                <div class="cart-shop" id="cart-btn">
+                    <i class='bx bx-shopping-bag bx-theme' ></i>
+                    <span class="cart-counter" id="cart-counter">0</span>
+                </div>
+                <i class='bx bx-grid-alt bx-theme menu' id="menu-btn" ></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="home grid" id="home">
+        <main class="main-item grid container">
+            <div class="img-main">
+                <img src="./assets/images/featured2.png" alt="" class="home-auto">
+            </div>
+        </main>
+        <div class="main-container">
+            <div class="title-container">
+                <p class="title">New Sweatshirt</p>
+                <p class="title">COLLECTIONS 2022</p>
+            </div>
+            <p class="description">Lastest arrival of the new Hanes Midweight Crewneck seatshirt imported from the 2022 series with a modern design.</p>
+            <p class="description price">$14.00</p>
+            <a class="btn btn-grey">Discover</a>
+            <button class="btn btn-black">ADD TO CART</button>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="products-header grid" id="products-header">
+            <div class="product-1">
+                <p class="p-title">Show All</p>
+                <p class="p-subtitle">Show All Products</p>
+            </div>
+            <div class="product-2">
+                <p class="p-title">Hoodies</p>
+                <p class="p-subtitle">3 Products</p>
+            </div>
+            <div class="product-3">
+                <p class="p-title">Shirts</p>
+                <p class="p-subtitle">4 Products</p>
+            </div>
+            <div class="product-4">
+                <p class="p-title">Sweatshirts</p>
+                <p class="p-subtitle">All items</p>
+            </div>
+        </div>
+        <div class="products-body grid" id="products-view">
+        </div>
+    </section>
+    <div class="cart-container hide" id="cart-container">
+        <div class="cart" id="cart">
+            <div class="cart-close" id="close-cart">
+                <i class='bx bx-x bx-md'></i>
+            </div>
+            <div class="flex cart-content-out">
+              <p class="titlecart">My cart</p>
+              <div id="cart-content" class="cart-content flex">
+                <img src="./assets/images/empty-cart.png" alt="">
+                <p><span class="titlecart">Your cart is empty</span> <br> Your cart is emptyYou can add items to your cart by clicking on the + button on the product page</p>
+              </div>
+              <div class="cart-bottom  flex">
+                <p><span id="counter">0</span> Items</p>
+                <p class="" id="total">Total</p>
+              </div>
+
+              <div class="cart-checkout flex">
+                <button class="cart-chekout-btn" id="cart-chekout-btn"><i class="bx bxs-check-shield"></i> Checkout</button>
+              </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--==============================  FOOTER   ===========================-->
+
+
+
+    <footer class="footerbg">
+      <div class="footer">
+        <div class="f-item-container">
+          <p class="f-title">Our Information</p>
+          <p class="f-item">Jalisco, México</p>
+        </div>
+          
+          <div class="f-item-container">
+            <p class="f-title">About Us</p>
+              <p class="f-item"><a href="#home" class="a-btn-footer">Support Center</a></p>
+              <p class="f-item"><a href="#" class=" a-btn-footer">Customer Support</a></p>
+              <p class="f-item"><a href="#" class=" a-btn-footer">About US</a></p>
+              <p class="f-item"><a href="#" class=" a-btn-footer">Copy Right</a></p>  
+          </div>
+
+          <div class="f-item-container">
+            <p class="f-title">Product</p>
+            <p class="f-item"><a href="#" class=" a-btn-footer">Hoodies</a></p>
+            <p class="f-item"><a href="#" class=" a-btn-footer">Shirts</a></p>
+            <p class="f-item"><a href="#" class=" a-btn-footer">Sweatshirts</a></p>  
+          </div>
+         
+          <div class="f-item-container">
+            <p class="f-title">Social</p>
+            <a href="#"><i class='bx bxl-facebook bx-sm'></i></a>
+            <a href="#"><i class='bx bxl-twitter bx-sm'></i></a>
+            <a href="#"><i class='bx bxl-instagram bx-sm' ></i></a>
+
+          </div>
+          <p class="f-item-rights">&#169; by Isaias y Angel. All rights reserver</p>
+      </div>    
+  </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
